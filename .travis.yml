@@ -18,7 +18,7 @@ env:
     - CMAKE_CONFIGURATION=debug BUILD_DIR=build-debug
 
 before_install:
-  - sudo apt-get install -qq cmake qt5-default cppcheck clang-tidy-3.8; fi
+  - sudo apt-get install -qq cmake qt5-default cppcheck clang-tidy-3.8
 
 
 before_script:
